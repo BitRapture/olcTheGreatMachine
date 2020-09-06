@@ -44,7 +44,7 @@ public:
 int main()
 {
 	Enviro Game;
-	if (Game.Construct(512, 288, 2, 2, false, true))
+	if (Game.Construct(512, 288, 2, 2, true, true))
 		Game.Start();
 	return 0;
 }
